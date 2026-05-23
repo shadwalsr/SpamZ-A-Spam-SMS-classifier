@@ -1,0 +1,74 @@
+/* ── Reset & Base ─────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Palette — inspired by the V-Labs template */
+  --purple-deep: #7c3aed;
+  --purple-mid: #a78bfa;
+  --purple-light: #c4b5fd;
+  --purple-surface: #ede9fe;
+  --teal: #5eead4;
+  --coral: #f87171;
+  --coral-soft: #fca5a5;
+  --green: #34d399;
+  --green-deep: #059669;
+  --dark: #18181b;
+  --text: #27272a;
+  --text-secondary: #71717a;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --border: #e4e4e7;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 6px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+}

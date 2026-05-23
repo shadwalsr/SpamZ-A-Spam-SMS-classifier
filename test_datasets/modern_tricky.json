@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Your Apple ID verification code is: 849201. Do not share this code with anyone.",
+    "true_label": "ham",
+    "description": "Standard 2FA code"
+  },
+  {
+    "text": "CHASE ALERT: Did you attempt a Zelle transfer of $450.00? Reply YES or NO. If NO, click here: secure-chase-auth.com",
+    "true_label": "spam",
+    "description": "Bank phishing scam"
+  },
+  {
+    "text": "Hey is this John? We met at the conference last week.",
+    "true_label": "spam",
+    "description": "Pig butchering/wrong number scam opener"
+  },
+  {
+    "text": "FedEx: Your package is out for delivery today between 10am and 2pm. Track here: fedex.com/track/1239129",
+    "true_label": "ham",
+    "description": "Legitimate package tracking"
+  },
+  {
+    "text": "USPS: We cannot deliver your parcel due to incomplete address. Please update your details immediately: usps-post-delivery-update.info",
+    "true_label": "spam",
+    "description": "Fake USPS package scam"
+  },
+  {
+    "text": "Delta Airlines: Your flight DL142 to NYC is delayed by 45 minutes. New departure time is 4:15 PM.",
+    "true_label": "ham",
+    "description": "Legitimate airline update"
+  },
+  {
+    "text": "Your Netflix subscription has been suspended. Please update your payment method to restore access: netflix-billing-update.com",
+    "true_label": "spam",
+    "description": "Subscription phishing"
+  },
+  {
+    "text": "Hi Mom, my phone broke and I'm using a friend's phone. Can you WhatsApp me on this number?",
+    "true_label": "spam",
+    "description": "Family impersonation scam"
+  },
+  {
+    "text": "Reminder: Your dental appointment is tomorrow at 9:00 AM. Reply C to confirm or call 555-0192 to reschedule.",
+    "true_label": "ham",
+    "description": "Automated appointment reminder"
+  },
+  {
+    "text": "Congrats! Your wallet address has been randomly selected to receive 0.5 BTC. Claim your bonus at crypto-giveaway-secure.org",
+    "true_label": "spam",
+    "description": "Crypto scam"
+  }
+]

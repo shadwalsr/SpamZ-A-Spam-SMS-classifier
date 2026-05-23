@@ -1,0 +1,19 @@
+# Core ML
+torch
+transformers
+onnxruntime
+
+# Data & Evaluation
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# API
+fastapi
+uvicorn[standard]
+
+# Testing
+pytest
+httpx
