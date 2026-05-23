@@ -282,12 +282,6 @@ SpamZ/
 
 ---
 
-## Live Demo
-
-🔗 **[spamz.shadwalsingh.com](https://spamz.shadwalsingh.com)** *(update with your deployment URL)*
-
----
-
 ## License
 
 MIT © Shadwal Singh
